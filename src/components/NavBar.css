@@ -1,45 +1,28 @@
 .container {
-    padding: 0px;
-    margin: 0px;
     display: flex;
-    align-items: center;
+    background-color: lightblue;
     justify-content: space-between;
-    background-color: rgb(188, 232, 246);
-    width: 100%;
-    height: max-content;
+    align-items: center;
 }
 
 .logo {
-    width: 20%;
-    font-family: sans-serif;
-    font-weight: 900;
-    margin: 1rem;
+    display: flex;
+    flex: 6;
+    margin-left: 1rem;
 }
 
-ul {
-    display: inline-flex;    
-    align-items: center;
-    margin: 0;
-    gap: 2rem;
-    height: 4rem;
-    padding: 0% 1rem;
+.nav {
+    display: flex;
+    justify-content: center;
+    flex: 3;
 }
-
-ul li {
-    list-style: none;
-}
-ul li:hover {
-    text-decoration: underline;
-}
-
 
 .loginSignup {
     display: flex;
-    justify-self: flex-end;
-    margin-right: 0%;
+    flex: 1;
 }
 
-a {
-    color: black;
-    text-decoration: none;
+.nav li {
+    list-style: none;
+    padding: 0rem 1rem;
 }
