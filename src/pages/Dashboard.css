@@ -1,0 +1,19 @@
+.heading {
+    text-align: center;
+    /* background-color: red; */
+}
+
+.content {
+    margin: 0px 20px;
+}
+
+.controlBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    margin: 10px 11px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
