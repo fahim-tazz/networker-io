@@ -1,0 +1,12 @@
+.button {
+    background-color: lightskyblue;
+    height: 2rem;
+    margin: 0px 0.5rem;
+    font-size: inherit;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.button:hover {
+    background-color: rgb(101, 142, 168);
+}

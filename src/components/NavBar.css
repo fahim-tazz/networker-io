@@ -1,0 +1,45 @@
+.container {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(188, 232, 246);
+    width: 100%;
+    height: max-content;
+}
+
+.logo {
+    width: 20%;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin: 1rem;
+}
+
+ul {
+    display: inline-flex;    
+    align-items: center;
+    margin: 0;
+    gap: 2rem;
+    height: 4rem;
+    padding: 0% 1rem;
+}
+
+ul li {
+    list-style: none;
+}
+ul li:hover {
+    text-decoration: underline;
+}
+
+
+.loginSignup {
+    display: flex;
+    justify-self: flex-end;
+    margin-right: 0%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
