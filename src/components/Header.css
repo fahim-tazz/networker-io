@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content:safe;
+    align-items: center;
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* text-align: left; */
+    box-shadow: 1px 2px 4px black;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.header > * {
+    /* padding: 0px 20px; */
+    font-weight: bolder;
+}
+
+.header :nth-child(1) {
+    flex: 1;
+}
+.header :nth-child(2) {
+    flex: 1;
+}
+.header :nth-child(3) {
+    flex: 2;
+}
+.header :nth-child(4) {
+    flex: 2;
+}
+.header :nth-child(5) {
+    flex: 1;
+}

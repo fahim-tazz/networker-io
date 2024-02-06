@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 1px 2px 4px black;
+}
+
+.image {
+    flex: 1;
+    min-width: 5%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+
+.name {
+    flex: 1;
+    padding: 20px 20px;
+    /* background-color: lightcoral; */
+}
+
+.title {
+    flex: 2;
+    padding: 20px 20px;
+    /* background-color: lightgreen; */
+}
+
+.convo {
+    flex: 2;
+    padding: 20px 20px;
+    /* background-color: yellow; */
+}
+
+.reminder {
+    flex: 1;
+    /* background-color: lightblue; */
+}

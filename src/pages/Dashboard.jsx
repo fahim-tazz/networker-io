@@ -3,8 +3,16 @@ import "./Dashboard.css";
 import NavBar from "../components/NavBar";
 import Button from "../components/Button";
 import Card from "../components/Card";
+import Header from "../components/Header";
 
 export default function Dashboard() {
+    const samplePerson = {
+        name: "Fahim Tajwar",
+        position: "Software Engineering Intern",
+        company: "Merck Software Development Group",
+        lastMsg: "How are you doing?!",
+        reminderFreq: "Every 1 month"
+    }
     return (
         <div>
             <NavBar />
@@ -22,11 +30,12 @@ export default function Dashboard() {
                     </div>
                 </div>
                 <div className="list">
-                    <Card></Card>
-                    <Card></Card>
-                    <Card></Card>
-                    <Card></Card>
-                    <Card></Card>
+                    <Header></Header>
+                    <Card person={samplePerson}></Card>
+                    <Card person={samplePerson}></Card>
+                    <Card person={samplePerson}></Card>
+                    <Card person={samplePerson}></Card>
+                    <Card person={samplePerson}></Card>
                 </div>
             </div>
         </div>
